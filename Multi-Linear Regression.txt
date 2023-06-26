@@ -1,8 +1,23 @@
-Consider only the below columns and prepare a prediction model for predicting Price.
+Assignment - Startups:
 
-Corolla<-Corolla[c("Price","Age_08_04","KM","HP","cc","Doors","Gears","Quarterly_Tax","Weight")]
+Prepare a prediction model for profit of 50_startups data. Perform transformations for getting better predictions of profit and make a table containing R^2 value for each prepared model.
 
- 
+Variables present:-
+
+
+R&D Spend -- Research and devolop spend in the past few years
+Administration -- spend on administration in the past few years
+Marketing Spend -- spend on Marketing in the past few years
+State -- states from which data is collected
+Profit  -- profit of each state in the past few years
+
+----------------------------------------------------------------------------------------------------------------------------------------------
+
+Assignment - Toyota Corolla:
+
+Consider the given variables and build a predictive model for predicting the Price of the car.
+
+Variables present:-
 
 Model -- model of the car
 Price  -- Offer Price in EUROs	
@@ -42,4 +57,6 @@ Metallic_Rim --Metallic Rim  (Yes=1, No=0)
 Radio_cassette -- Radio Cassette  (Yes=1, No=0)
 Tow_Bar -- Tow Bar  (Yes=1, No=0)
 
+Variables to be considered:-
 
+"Price", "Age_08_04", "KM", "HP", "cc", "Doors", "Gears", "Quarterly_Tax", "Weight"
